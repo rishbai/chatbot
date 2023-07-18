@@ -1,0 +1,124 @@
+.container {
+    margin-top: 20px;
+}
+
+.chat-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 500px;
+    width: 1000px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    justify-content: flex-end;
+}
+
+.bot {
+    justify-content: flex-start;
+}
+
+.message-bubble {
+    max-width: 85%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.user .message-bubble {
+    background-color: #DCF8C6;
+    color: #333;
+}
+
+.bot .message-bubble {
+    background-color: #E9ECEF;
+    color: #333;
+}
+
+.message-input {
+    display: flex;
+}
+
+.text-center {
+    width: 1000px;
+    text-align: right;
+}
+
+.form-control {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    width: 100px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+}
+
+.profile-image {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bot.typing::after {
+    content: '';
+    display: inline-block;
+    width: 0;
+    animation: typing 1s infinite;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    max-height: 600px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.input-container {
+    width: 1000px;
+}
+
+.typing-indicator {
+    display: block;
+    text-align: center;
+}
+
+.typing-indicator div {
+    display: inline-block;
+    background-color: #0378CD;
+    /* SAS Classic Blue */
+    width: 6px;
+    height: 6px;
+    margin-right: 3px;
+    border-radius: 50%;
+    animation: typing 1s infinite;
+}
+
+.table table-striped {
+    width: 900px;
+}
+
+@keyframes typing {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
