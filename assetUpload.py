@@ -9,7 +9,7 @@ import docx2txt
 import openpyxl
 import numpy as np
 # set this to OpenAI API KEY
-openai.api_key = "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"
+openai.api_key = ""
 
 """
     Global Variables
