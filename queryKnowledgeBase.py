@@ -5,7 +5,7 @@ import os
 import numpy as np
 
 # set openAI key
-openai.api_key = "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"
+openai.api_key = ""
 
 # load our pickle files
 pickle_path = os.getcwd() + "/pickles/"  # path for output pickle files
