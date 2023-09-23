@@ -16,8 +16,6 @@ The answer_question(question, relevant_text) function in queryKnowledgeBase.py u
 ## Interactive Web Interface
 The Flask web interface provides an interactive platform for users to enter questions, receive answers, and explore relevant text and document summaries.
 
-## Contributors
-This project was developed by Rishika Baichwal and other team members. Please feel free to contribute to this project by submitting pull requests or reporting issues. Your contributions are highly appreciated!
 
 
 
