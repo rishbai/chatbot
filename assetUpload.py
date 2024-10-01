@@ -180,26 +180,11 @@ def process_asset(filename):
 Example for indexing a single file: 
 """
 #the test file for reading and processing 
-# test_file = "beyond-cdp.pdf"  # filename in /documents directory
+# test_file = "File_Title.pdf"  # filename in /documents directory
 # process_asset(test_file)
-# test_file = "third-party-cookies.pdf"
-# process_asset(test_file)
-
-# test_file = "USPS_Git_Best_Practices_v1.1 (1)-part-2-part-1.pdf"  # filename in /documents directory
+# test_file = "File_title.pdf"
 # process_asset(test_file)
 
-# test_file2 = "USPS_Git_Best_Practices_v1.1 (1)-part-2-part-2.pdf"  # filename in /documents directory
-# process_asset(test_file2)
-
-# test_file3 = "PDUs.docx"  # filename in /documents directory
-# process_asset(test_file3)
-
-
-# test_file4 = "USPS_Git_Best_Practices_v1.1 (1)-part-1-part-2.pdf"  # filename in /documents directory
-# process_asset(test_file4)
-
-# test_file4 = "USPS_Git_Best_Practices_v1.1 (1)-part-1-part-1.pdf"  # filename in /documents directory
-# process_asset(test_file4)
 
 """
 Example for indexing the entire /documents directory: 
