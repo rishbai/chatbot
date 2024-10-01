@@ -81,8 +81,7 @@ def ask_question(question):
     return answer_question(question, relevant_text)
 
 
-# question = "Why is it important to report PDU's?"  # beyond cdp question
-# # third party cookie question
-# # question2 = "What does a customer scenario look like?"
+# question = "Why is it important to .. ?"  # beyond cdp question
+# # question2 = "What does a .... do?"
 # ask_question(question)
 # ask_question(question2)
