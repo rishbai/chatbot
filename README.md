@@ -4,9 +4,6 @@ This repository contains a Python project that provides functionalities for sear
 ## Introduction
 The Knowledge Base Search and Summarization System is designed to assist users in efficiently searching through a collection of documents, extracting relevant information, and generating summaries and statistics. The system employs various natural language processing techniques provided by the OpenAI API.
 
-## Examples
-Below are some example use cases:
-
 ## Searching for Relevant Text
 The search_embedding(question) function in queryKnowledgeBase.py searches the knowledge base for relevant text based on a user's question. The system retrieves relevant text chunks and displays their sources.
 
